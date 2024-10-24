@@ -2,35 +2,35 @@
     {
         "id": 1,
         "title": "Wireless Headphones",
-        "productImg": "https://example.com/images/headphones.jpg",
+        "productImg": "https://images.pexels.com/photos/28993054/pexels-photo-28993054/free-photo-of-modern-headphones-on-display-with-urban-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "price": 89.99,
         "description": "High-quality wireless headphones with noise cancellation and long battery life."
     },
     {
         "id": 2,
         "title": "Smartwatch",
-        "productImg": "https://example.com/images/smartwatch.jpg",
+        "productImg": "https://images.pexels.com/photos/440320/pexels-photo-440320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "price": 199.99,
         "description": "A versatile smartwatch with fitness tracking, notifications, and customizable faces."
     },
     {
         "id": 3,
         "title": "Bluetooth Speaker",
-        "productImg": "https://example.com/images/speaker.jpg",
+        "productImg": "https://images.pexels.com/photos/14309813/pexels-photo-14309813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "price": 49.99,
         "description": "Portable Bluetooth speaker with rich sound and waterproof design."
     },
     {
         "id": 4,
         "title": "4K Ultra HD TV",
-        "productImg": "https://example.com/images/tv.jpg",
+        "productImg": "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "price": 599.99,
         "description": "Stunning 4K Ultra HD TV with smart features and a wide range of streaming options."
     },
     {
         "id": 5,
         "title": "Gaming Mouse",
-        "productImg": "https://example.com/images/mouse.jpg",
+        "productImg": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "price": 39.99,
         "description": "Ergonomic gaming mouse with customizable RGB lighting and programmable buttons."
     }

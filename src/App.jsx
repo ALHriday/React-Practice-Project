@@ -7,16 +7,20 @@ import Products from './components/Products/Products'
 function App() {
   const [handlebtn, setHandlebtn] = useState([]);
   const [productprice, setProductprice] = useState([]);
+  const [productimg, setProductimg] = useState([]);
 
   const handleAddToCart = product =>{
-    // console.log(product.title);
-    const {title, price} = product;
-    const newProduct = [...handlebtn, `${title} = ${price}$`];
-    const newPrice = [...productprice, price];
     
-    setHandlebtn(newProduct);
+    const {title, price, productImg} = product;
+
+    const newProductImg = [...productimg, productImg];
+    const newPrice = [...productprice, price];
+
+    const newProduct = [...handlebtn, `${productImg} ${title} ${price}$`];
+     
+    setProductimg(newProductImg);
     setProductprice(newPrice);
-    console.log('ok');
+    setHandlebtn(newProduct);
     
   }
 
@@ -27,9 +31,15 @@ function App() {
         <Products handleAddToCart = {handleAddToCart}></Products>
      </div>
      <div className='flex flex-col gap-2 text-lg text-white font-bold px-4 py-8 bg-teal-400 rounded-xl border-2'>
-        {handlebtn.map((title, idx) => <p className='bg-teal-700 p-2 rounded-md' key={idx}>Title: {title}</p>)}
+        {handlebtn.map(item => console.log(item)
+        )}
+    
      </div>
+
+     
+
     </div>
+
   )
 }
 

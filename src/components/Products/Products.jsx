@@ -15,8 +15,7 @@ const Products = ({handleAddToCart}) => {
     },[])
 
     return (
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4">
-            <h1 className="col-span-2 md:col-span-3 text-left text-4xl font-bold">All Products lists:</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
             {products.map(product =>
                 <Product product = {product} key={product.id} handleAddToCart = {handleAddToCart}>{product.title}</Product>)}
         </div>

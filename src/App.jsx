@@ -11,9 +11,6 @@ function App() {
   const [eachprice, setEachprice] = useState(0);
 
 
-  console.log(handlebtn);
-  
-
   const handleAddToCart = product =>{
     
     const {title, price, productImg} = product;
@@ -33,19 +30,24 @@ function App() {
   }
 
   return (
-    <div className='p-4 bg-slate-300'>
+    <div className='p-4 bg-slate-300 mx-auto max-w-7xl'>
 
-     <Header></Header>
+      <Header></Header>
 
-     <div className='flex justify-center items-center gap-4 text-center'>
-        <Products handleAddToCart = {handleAddToCart}></Products>
-     </div>
+      <div className='grid grid-cols-4'>
+          <h1 className="col-span-4 text-left text-3xl font-bold py-2 px-4">All Products lists:</h1>
+          <div className='col-span-2 md:col-span-3 flex justify-center items-center gap-4 text-center'>
+            <Products handleAddToCart = {handleAddToCart}></Products>
+          </div>
 
-     <div className='flex flex-col gap-2 text-lg font-bold px-4 py-8 bg-teal-400 rounded-xl border-2'>
-      <h1 className='text-4xl rounded-xl bg-orange-400 p-4'>Total-Price: {eachprice.toFixed(2)}$</h1>
-
-       {handlebtn.map((title, idx) => <p className='' key={idx}>{title}</p>)}
-     </div>
+          <div className='col-span-2 md:col-span-1 flex flex-col gap-2 text-lg font-bold px-4 py-8 bg-teal-400 rounded-xl border-2 mt-4'>
+              <h1 className='text-2xl rounded-xl bg-orange-400 p-4'>Total-Price: {eachprice.toFixed(2)}$</h1>
+              <div className='p-4'>
+                {handlebtn.map((title, idx) => <p className='border-b-2 py-2' key={idx}>{title}</p>)}
+              </div>
+          </div>
+      </div>
+     
 
     </div>
 

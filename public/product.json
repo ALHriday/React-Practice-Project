@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Wireless Headphones",
+        "productImg": "https://example.com/images/headphones.jpg",
+        "price": 89.99,
+        "description": "High-quality wireless headphones with noise cancellation and long battery life."
+    },
+    {
+        "id": 2,
+        "title": "Smartwatch",
+        "productImg": "https://example.com/images/smartwatch.jpg",
+        "price": 199.99,
+        "description": "A versatile smartwatch with fitness tracking, notifications, and customizable faces."
+    },
+    {
+        "id": 3,
+        "title": "Bluetooth Speaker",
+        "productImg": "https://example.com/images/speaker.jpg",
+        "price": 49.99,
+        "description": "Portable Bluetooth speaker with rich sound and waterproof design."
+    },
+    {
+        "id": 4,
+        "title": "4K Ultra HD TV",
+        "productImg": "https://example.com/images/tv.jpg",
+        "price": 599.99,
+        "description": "Stunning 4K Ultra HD TV with smart features and a wide range of streaming options."
+    },
+    {
+        "id": 5,
+        "title": "Gaming Mouse",
+        "productImg": "https://example.com/images/mouse.jpg",
+        "price": 39.99,
+        "description": "Ergonomic gaming mouse with customizable RGB lighting and programmable buttons."
+    }
+]

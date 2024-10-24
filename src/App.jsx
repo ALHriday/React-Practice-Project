@@ -29,8 +29,16 @@ function App() {
     
   }
 
+  const clearTask = () =>{
+      const handlebtn = [];
+      const eachprice = 0;
+      setHandlebtn(handlebtn);
+      setEachprice(eachprice);
+
+  }
+
   return (
-    <div className='p-4 bg-slate-300 mx-auto max-w-7xl'>
+    <div className=' bg-slate-300 mx-auto max-w-7xl'>
 
       <Header></Header>
 
@@ -44,6 +52,9 @@ function App() {
               <h1 className='text-2xl rounded-xl bg-orange-400 p-4'>Total-Price: {eachprice.toFixed(2)}$</h1>
               <div className='p-4'>
                 {handlebtn.map((title, idx) => <p className='border-b-2 py-2' key={idx}>{title}</p>)}
+              </div>
+              <div className='w-full flex justify-end'>
+                <button className='btn text-right px-4 py-2 bg-red-400 text-slate-200 rounded-lg' onClick={clearTask}>Clear All</button>
               </div>
           </div>
       </div>
